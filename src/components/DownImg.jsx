@@ -16,7 +16,7 @@ const DownImgText = () => {
           </div>
         </div>
       </div>
-      
+
     );
 }
 

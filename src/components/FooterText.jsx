@@ -2,59 +2,30 @@ import React from 'react';
 
 const FooterText = () => {
   return (
-  <div className="text-center fw-bold">
-    <p>
-      C.R.L. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS
-    </p>
-    <footer className="text-center bg-danger">
-      {/* Grid container */}
+    <footer className="bg-danger py-5">
       <div className="container">
-        {/* Section: Social media */}
-        <section className="mb-4 d-flex justify-content-evenly align-items-top">
+        <section className="row justify-content-center align-items-center">
           {/* Facebook */}
-          <div>
-            <a
-              href="#!"
-              className="btn btn-link btn-floating btn-lg text-body m-1"
-              role="button"
-              data-mdb-ripple-init
-              data-mdb-ripple-color="dark"
-            >
-              <i className="fab fa-facebook-f" style={{ color: '#fafafa' }}></i>
-            </a>
+          <div className="col-sm-auto">
+            <i className="fab fa-facebook-f" style={{ color: '#fafafa' }}></i>
+            <span className="ms-2" style={{ color: 'white', textDecoration: 'none' }}>www.facebook.com/cripumps</span> {/* Facebook text */}
           </div>
 
           {/* Phone */}
-          <div>
-            <a
-              href="#!"
-              className="btn btn-link btn-floating btn-lg text-body m-1"
-              role="button"
-              data-mdb-ripple-init
-              data-mdb-ripple-color="dark"
-            >
-              <i className="fas fa-phone" style={{ color: '#ffffff' }}></i>
-            </a>
+          <div className="col-sm-auto">
+            <i className="fas fa-phone" style={{ color: '#ffffff' }}></i>
+            <span className="ms-2" style={{ color: 'white', textDecoration: 'none' }}>Toll free 1800 200 1234</span> {/* Phone text */}
           </div>
 
           {/* Globe */}
-          <div>
-            <a
-              href="#!"
-              className="btn btn-link btn-floating btn-lg text-body m-1"
-              role="button"
-              data-mdb-ripple-init
-              data-mdb-ripple-color="dark"
-            >
-              <i className="fa fa-globe" aria-hidden="true" style={{ color: 'white' }}></i>
-            </a>
+          <div className="col-sm-auto">
+            <i className="fa fa-globe" aria-hidden="true" style={{ color: 'white' }}></i>
+            <span className="ms-2" style={{ color: 'white', textDecoration: 'none' }}>www.crigroups.com</span> {/* Globe text */}
           </div>
         </section>
-        {/* Section: Social media */}
       </div>
-      {/* Grid container */}
     </footer>
-  </div>  );
+  );
 };
 
 export default FooterText;

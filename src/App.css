@@ -1,2 +1,9 @@
 main {
 }
+body{
+  /* Replace the colors and direction as needed */
+  .gradient-background {
+    background: linear-gradient(to bottom, #ffffff, #000000);
+  }
+
+}
