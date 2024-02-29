@@ -5,7 +5,7 @@ const UpperRightText = () => {
     <div className="container">
       <div className="row justify-content-end align-items-center">
         <div className="col-12 col-lg-8 rounded p-2 mb-5">
-          <p>C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</p>
+          <p className="fw-bold">C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</p>
           <ul>
             <li className="mb-1">
               C.R.I.'s energy efficient products are well recognized by various Government Institutions, as trustworthy products for various projects across the globe to save energy.

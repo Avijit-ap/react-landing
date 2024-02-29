@@ -11,7 +11,7 @@ const RightImage = () => {
         </div>
         <div className="col-lg-6 col-md-12">
           <img src={persons} className='img-fluid mb-3' alt="Persons" />
-          <p>Government of India has awarded the "National Energy Conservation Award 2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.</p>
+          <p>Government of India has awarded the <span className="fw-bold">"National Energy Conservation Award 2018"</span>. Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.</p>
         </div>
       </div>
     </div>
