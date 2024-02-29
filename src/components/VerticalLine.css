@@ -1,0 +1,7 @@
+.horizontal-line {
+  border: none;
+  border-top: 5px solid #e60f0f; /* Red border */
+  width: 100%; /* Full width */
+  height: 0; /* Set height to 0 to create a thin line */
+  margin: 20px 0; /* Adjust margin as needed */
+}
