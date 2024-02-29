@@ -1,6 +1,6 @@
 import React from 'react';
-import persons from "../asset/persons.png";
-import trophy from "../asset/trophy.png";
+import persons from "../../asset/persons.png";
+import trophy from "../../asset/trophy.png";
 
 const RightImage = () => {
   return (
