@@ -4,7 +4,7 @@ const UpperRightText = () => {
   return (
     <div className="container">
       <div className="row justify-content-end align-items-center">
-        <div className="col-12 col-lg-8 rounded p-2 mb-5">
+        <div className="col-12 col-lg-8 rounded p-2 mb-2">
           <p className="fw-bold">C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</p>
           <ul>
             <li className="mb-1">

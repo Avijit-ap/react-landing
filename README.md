@@ -1,17 +1,42 @@
-## Running React on Repl.it
+# Internship Assignment
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+## Description
+This project is a solution to the internship assignment. It involves implementing a given image and making it responsive.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Images
+### Original Image
+![Original Image](original_image.png)
+*Caption: Original image provided for implementation*
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+### Implemented Image
+![Implemented Image](implemented_image.png)
+*Caption: Image showing the implemented solution*
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Setup
+To set up the project, follow these steps:
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install the dependencies.
+4. After the installation is complete, run `npm run dev` to start the development server.
 
-### Typescript
+## Usage
+Once the development server is up and running, you can access the project in your browser by visiting `http://localhost:3000` (or a different port if specified).
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- npm
+
+## Folder Structure
+- `src/`: Contains the source code files.
+- `public/`: Contains public assets like images and fonts.
+- `dist/`: Contains the built project files.
+
+## Contributing
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
